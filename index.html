@@ -1,274 +1,410 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Download Center</title>
-<meta name="robots" content="index, follow">
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#0a0a0c;color:#e4e4e7;font-family:'Segoe UI',system-ui,sans-serif;padding:20px;min-height:100vh;display:flex;flex-direction:column;align-items:center}
-.container{max-width:800px;width:100%;margin:0 auto;flex:1}
-.header{background:linear-gradient(135deg,#6c5ce7,#3b82f6);padding:24px;border-radius:12px;text-align:center;margin-bottom:20px}
-.header h1{font-size:22px;color:#fff;margin-bottom:6px}
-.header p{color:rgba(255,255,255,.7);font-size:13px}
-.stats{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}
-.stat{background:#121216;border:1px solid #1f1f27;border-radius:8px;padding:14px 16px;flex:1;min-width:100px;text-align:center}
-.stat .num{font-size:20px;font-weight:700;color:#6c5ce7}
-.stat .lbl{font-size:11px;color:#a1a1aa;margin-top:2px}
-.download-box{background:#121216;border:1px solid #1f1f27;border-radius:12px;padding:24px;margin-bottom:20px;text-align:center}
-.download-box h3{font-size:15px;color:#a1a1aa;margin-bottom:16px;font-weight:400}
-.download-btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#6c5ce7,#3b82f6);color:#fff;border:none;padding:14px 32px;border-radius:8px;font-size:15px;font-weight:600;cursor:pointer;text-decoration:none;transition:.2s}
-.download-btn:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(108,92,231,.3)}
-.download-btn span{font-size:18px}
-.download-info{color:#52525b;font-size:12px;margin-top:12px}
-.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:20px}
-.feature{background:#121216;border:1px solid #1f1f27;border-radius:8px;padding:16px;text-align:center}
-.feature .icon{font-size:24px;margin-bottom:8px}
-.feature .title{font-size:13px;color:#e4e4e7;font-weight:600}
-.feature .desc{font-size:11px;color:#a1a1aa;margin-top:4px}
-.placeholder-box{background:#121216;border:2px dashed #3b82f6;border-radius:12px;padding:20px;margin-bottom:20px;text-align:center;min-height:100px;display:flex;flex-direction:column;align-items:center;justify-content:center}
-.placeholder-box .label{font-size:14px;color:#3b82f6;font-weight:600;margin-bottom:6px}
-.placeholder-box .note{font-size:12px;color:#a1a1aa}
-.footer{text-align:center;color:#52525b;font-size:11px;padding:16px;width:100%;max-width:800px}
-@media(max-width:480px){.header h1{font-size:18px}.download-btn{width:100%;justify-content:center}}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="description" content="أفضل موقع محتوى عربي عن المسلسلات التركية 2026: مقالات محدثة، أحدث الحلقات، أفضل المسلسلات التركية، ومشاهدة الحلقات من خلال موقع far.q-ask.video." />
+  <meta name="keywords" content="أفضل المسلسلات التركية, مسلسلات تركية 2026, مشاهدة مسلسلات تركية مترجمة, حلقات جديدة مسلسلات تركية, دراما تركية, موقع محتوى, مقالات تركية" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://far.q-ask.video/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ar_AR" />
+  <meta property="og:site_name" content="أخبار ومقالات المسلسلات التركية" />
+  <meta property="og:title" content="أفضل المسلسلات التركية 2026 | مقالات وحلقات جديدة" />
+  <meta property="og:description" content="موقع محتوى عربي احترافي عن أفضل المسلسلات التركية 2026، أحدث الحلقات، ومقالات SEO جاهزة للزيارات من Google." />
+  <meta property="og:url" content="https://far.q-ask.video/" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1510925752297-7f4c0f0b9f8f?auto=format&fit=crop&w=1200&q=80" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="أفضل المسلسلات التركية 2026 | مقالات وحلقات جديدة" />
+  <meta name="twitter:description" content="موقع محتوى عربي احترافي عن المسلسلات التركية 2026، أحدث الحلقات، ومقالات SEO جاهزة للزيارات من Google." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1510925752297-7f4c0f0b9f8f?auto=format&fit=crop&w=1200&q=80" />
+
+  <title>أفضل المسلسلات التركية 2026 | حلقات جديدة ومقالات محدثة</title>
+
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#111111;
+      --muted:#666666;
+      --line:#e9e9e9;
+      --card:#fafafa;
+      --red:#d11f2e;
+      --red-dark:#a81622;
+      --shadow:0 14px 40px rgba(0,0,0,.08);
+      --radius:20px;
+      --max:1200px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Tahoma, Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.8;
+    }
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{width:min(100% - 32px, var(--max));margin-inline:auto}
+    .topbar{
+      background:#0f0f0f;
+      color:#fff;
+      font-size:14px;
+      padding:10px 0;
+      border-bottom:1px solid rgba(255,255,255,.08);
+    }
+    .topbar .inner{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
+    .badge{
+      display:inline-flex;align-items:center;gap:8px;
+      background:rgba(255,255,255,.08);
+      padding:6px 12px;border-radius:999px
+    }
+    header{
+      position:sticky;top:0;z-index:50;
+      backdrop-filter:saturate(180%) blur(12px);
+      background:rgba(255,255,255,.88);
+      border-bottom:1px solid var(--line);
+    }
+    .nav{
+      display:flex;align-items:center;justify-content:space-between;gap:16px;
+      padding:14px 0;
+    }
+    .logo{
+      display:flex;align-items:center;gap:12px;font-weight:700
+    }
+    .logo-mark{
+      width:42px;height:42px;border-radius:14px;
+      background:linear-gradient(135deg,var(--red),#ff6a6a);
+      box-shadow:var(--shadow)
+    }
+    nav ul{
+      display:flex;gap:18px;list-style:none;padding:0;margin:0;flex-wrap:wrap
+    }
+    nav a{color:#222;font-weight:700;font-size:15px}
+    nav a:hover{color:var(--red)}
+    .hero{
+      padding:34px 0 18px;
+      background:
+        linear-gradient(180deg, rgba(17,17,17,.86), rgba(17,17,17,.55)),
+        url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color:#fff;
+      min-height:420px;
+      display:flex;
+      align-items:end;
+    }
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:end;padding:40px 0}
+    .hero h1{font-size:clamp(30px,5vw,58px);line-height:1.15;margin:0 0 14px}
+    .hero p{max-width:720px;color:rgba(255,255,255,.9);font-size:18px;margin:0 0 22px}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;
+      padding:14px 22px;border-radius:14px;font-weight:700;border:1px solid transparent;
+      transition:.25s ease;cursor:pointer
+    }
+    .btn-primary{background:var(--red);color:#fff}
+    .btn-primary:hover{background:var(--red-dark);transform:translateY(-2px)}
+    .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.25)}
+    .btn-ghost:hover{background:rgba(255,255,255,.08)}
+    .hero-card{
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.18);
+      border-radius:24px;padding:18px;box-shadow:var(--shadow)
+    }
+    .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .stat{
+      background:rgba(255,255,255,.09);
+      border:1px solid rgba(255,255,255,.1);
+      border-radius:18px;padding:16px
+    }
+    .stat strong{display:block;font-size:28px}
+    main{padding:34px 0 60px}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+    .section-head h2{margin:0;font-size:clamp(24px,3vw,34px)}
+    .section-head p{margin:0;color:var(--muted);max-width:700px}
+    .grid{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:20px
+    }
+    .card{
+      background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+      overflow:hidden;box-shadow:var(--shadow);transition:.25s ease;display:flex;flex-direction:column
+    }
+    .card:hover{transform:translateY(-6px);border-color:#f1c3c7}
+    .card img{aspect-ratio:16/10;object-fit:cover}
+    .card-body{padding:18px;display:flex;flex-direction:column;gap:12px}
+    .chip{
+      display:inline-flex;align-self:start;background:#fff1f2;color:var(--red);
+      border:1px solid #ffd3d8;padding:6px 12px;border-radius:999px;font-size:13px;font-weight:700
+    }
+    .card h3{margin:0;font-size:22px;line-height:1.4}
+    .card p{margin:0;color:var(--muted);font-size:15px}
+    .meta-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto}
+    .meta-links a{
+      font-size:14px;font-weight:700;color:var(--red);border-bottom:1px solid rgba(209,31,46,.25)
+    }
+    .content-block{
+      margin-top:32px;
+      background:linear-gradient(180deg,#fff,#fcfcfc);
+      border:1px solid var(--line);
+      border-radius:28px;
+      padding:28px;
+      box-shadow:var(--shadow)
+    }
+    .article{
+      display:grid;grid-template-columns:.95fr 1.05fr;gap:24px;align-items:center;
+      padding:24px 0;border-top:1px solid var(--line)
+    }
+    .article:first-of-type{border-top:0;padding-top:0}
+    .article img{border-radius:22px;aspect-ratio:4/3;object-fit:cover}
+    .article h3{margin:0 0 10px;font-size:28px}
+    .article p{margin:0 0 12px;color:#444}
+    .article ul{margin:0;padding-right:18px;color:#444}
+    .article li{margin:6px 0}
+    .article .btn{margin-top:10px}
+    .subnav{
+      display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 18px
+    }
+    .subnav a{
+      background:#f6f6f6;border:1px solid var(--line);padding:10px 14px;border-radius:999px;font-size:14px;font-weight:700
+    }
+    .subnav a:hover{border-color:#e9b7bc;color:var(--red)}
+    footer{
+      background:#111;color:#eaeaea;padding:28px 0;margin-top:40px
+    }
+    footer p{margin:0;color:#cfcfcf}
+    .footer-grid{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+    .small{font-size:14px;color:#777}
+    @media (max-width: 980px){
+      .hero-grid,.grid,.article{grid-template-columns:1fr}
+      .hero{min-height:auto}
+      .hero p{font-size:16px}
+      nav ul{display:none}
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"أفضل المسلسلات التركية 2026",
+    "url":"https://far.q-ask.video/",
+    "inLanguage":"ar"
+  }
+  </script>
 </head>
 <body>
-
-<div class="container">
-
-  <!-- ============================================================ -->
-  <!-- HEADER                                                        -->
-  <!-- ============================================================ -->
-  <div class="header">
-    <h1>Download links</h1>
-    <p>The links are constantly updated</p>
-  </div>
-
-  <!-- ============================================================ -->
-  <!-- STATS BAR                                                     -->
-  <!-- ============================================================ -->
-  <div class="stats">
-    <div class="stat">
-      <div class="num">5</div>
-      <div class="lbl">Files</div>
-    </div>
-    <div class="stat">
-      <div class="num">RAR</div>
-      <div class="lbl">Format</div>
-    </div>
-    <div class="stat">
-      <div class="num">Varied</div>
-      <div class="lbl">Size</div>
+  <div class="topbar">
+    <div class="container inner">
+      <div class="badge">موقع محتوى عربي متخصص في المسلسلات التركية</div>
+      <div>أفضل المسلسلات التركية 2026 • مشاهدة مسلسلات تركية مترجمة • حلقات جديدة</div>
     </div>
   </div>
 
-  <!-- ============================================================ -->
-  <!-- DOWNLOAD BOX — 5 BUTTONS                                     -->
-  <!-- ============================================================ -->
-  <!--
-    IMPORTANT: The download URLs are NOT set here.
-    Scroll down to the JavaScript section and edit the 5 variables
-    named DOWNLOAD_URL_1 through DOWNLOAD_URL_5.
-    Each button below is linked to its matching variable.
-  -->
-  <div class="download-box">
-    <h3>Download links</h3>
-
-    <!-- Download button 1 -> uses DOWNLOAD_URL_1 in JavaScript -->
-    <a class="download-btn" href="#" id="downloadLink1" style="margin-bottom:10px">
-      <span>⬇</span> Download 1
-    </a>
-    <br>
-
-    <!-- Download button 2 -> uses DOWNLOAD_URL_2 in JavaScript -->
-    <a class="download-btn" href="#" id="downloadLink2" style="margin-bottom:10px">
-      <span>⬇</span> Download 2
-    </a>
-    <br>
-
-    <!-- Download button 3 -> uses DOWNLOAD_URL_3 in JavaScript -->
-    <a class="download-btn" href="#" id="downloadLink3" style="margin-bottom:10px">
-      <span>⬇</span> Download 3
-    </a>
-    <br>
-
-    <!-- Download button 4 -> uses DOWNLOAD_URL_4 in JavaScript -->
-    <a class="download-btn" href="#" id="downloadLink4" style="margin-bottom:10px">
-      <span>⬇</span> Download 4
-    </a>
-    <br>
-
-    <!-- Download button 5 -> uses DOWNLOAD_URL_5 in JavaScript -->
-    <a class="download-btn" href="#" id="downloadLink5">
-      <span>⬇</span> Download 5
-    </a>
-
-    <div class="download-info"></div>
-  </div>
-
-  <!-- ============================================================ -->
-  <!-- FEATURES GRID                                                 -->
-  <!-- ============================================================ -->
-  <div class="features">
-    <div class="feature">
-      <div class="icon">🎨</div>
-      <div class="title">Modern Design</div>
-      <div class="desc">Clean & professional layouts</div>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="#home" aria-label="العودة للرئيسية">
+        <span class="logo-mark"></span>
+        <span>دراما تركية اليوم</span>
+      </a>
+      <nav aria-label="التنقل الرئيسي">
+        <ul>
+          <li><a href="#best">أفضل المسلسلات</a></li>
+          <li><a href="#episodes">أحدث الحلقات</a></li>
+          <li><a href="#popular">مسلسلات مشهورة</a></li>
+          <li><a href="#articles">المقالات</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="feature">
-      <div class="icon">📱</div>
-      <div class="title">Fully Responsive</div>
-      <div class="desc">Works on all devices</div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <h1>أفضل المسلسلات التركية 2026 ومقالات محدثة لجلب زيارات من Google</h1>
+        <p>
+          هنا ستجد موقع محتوى عربي أنيق يشبه مواقع المقالات الكبيرة، مع مقالات طويلة، عناوين SEO قوية، وروابط مباشرة إلى
+          موقعك الأساسي لمتابعة الحلقات والمحتوى الجديد.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://far.q-ask.video/" target="_blank" rel="noopener">مشاهدة الآن</a>
+          <a class="btn btn-ghost" href="#articles">استعرض المقالات</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="stats">
+          <div class="stat"><strong>2026</strong><span>تركيز على أحدث الترندات</span></div>
+          <div class="stat"><strong>SEO</strong><span>هيكلة مثالية لمحركات البحث</span></div>
+          <div class="stat"><strong>عربي</strong><span>محتوى طبيعي وسلس</span></div>
+          <div class="stat"><strong>سريع</strong><span>بدون مكتبات ثقيلة</span></div>
+        </div>
+      </div>
     </div>
-    <div class="feature">
-      <div class="icon">⚡</div>
-      <div class="title">Lightweight</div>
-      <div class="desc">Fast loading speed</div>
+  </section>
+
+  <main class="container">
+    <section class="content-block" id="best">
+      <div class="section-head">
+        <div>
+          <h2>أفضل المسلسلات التركية</h2>
+          <p>اختيارات مناسبة للباحثين عن أفضل المسلسلات التركية 2026، مع تنقل داخلي وروابط مشاهدة واضحة.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80" alt="مسلسل تركي درامي" />
+          <div class="card-body">
+            <span class="chip">أفضل المسلسلات</span>
+            <h3>أفضل المسلسلات التركية 2026: أعمال تجمع الدراما والإثارة</h3>
+            <p>دليل مقروء بسهولة يركز على المسلسلات التركية الجديدة، وأسباب تصدرها البحث، وما الذي يجعل الجمهور يعود لمتابعتها باستمرار.</p>
+            <div class="meta-links">
+              <a href="#article-1">اقرأ المقال</a>
+              <a href="https://far.q-ask.video/" target="_blank" rel="noopener">مشاهدة الحلقات من هنا</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80" alt="شاشة مشاهدة محتوى" />
+          <div class="card-body">
+            <span class="chip">أحدث الحلقات</span>
+            <h3>أحدث الحلقات التركية: ماذا يشاهد الجمهور الآن؟</h3>
+            <p>مقال طويل بصياغة بشرية يضم الكلمات المفتاحية المطلوبة ويقود الزائر إلى صفحة المشاهدة داخل موقعك الأساسي.</p>
+            <div class="meta-links">
+              <a href="#article-2">اقرأ المقال</a>
+              <a href="https://far.q-ask.video/" target="_blank" rel="noopener">عرض جميع الحلقات</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80" alt="واجهة موقع مقالات" />
+          <div class="card-body">
+            <span class="chip">مسلسلات مشهورة</span>
+            <h3>مسلسلات مشهورة تحافظ على الصدارة في البحث</h3>
+            <p>محتوى مناسب لزوار Google الذين يبحثون عن ترشيحات، ملخصات، وتجميعات تعرض الأعمال الأكثر تداولًا.</p>
+            <div class="meta-links">
+              <a href="#article-3">اقرأ المقال</a>
+              <a href="https://far.q-ask.video/" target="_blank" rel="noopener">مشاهدة الآن</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-block" id="episodes">
+      <div class="section-head">
+        <div>
+          <h2>أحدث الحلقات</h2>
+          <p>قسم مخصص لعبارات البحث مثل مشاهدة مسلسلات تركية مترجمة وحلقات جديدة مسلسلات تركية، مع أسلوب مجلة إخبارية.</p>
+        </div>
+      </div>
+      <div class="article" id="article-1">
+        <img src="https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?auto=format&fit=crop&w=1200&q=80" alt="مشهد سينمائي تركي" />
+        <div>
+          <h3>أفضل المسلسلات التركية 2026: لماذا يزداد الاهتمام بها كل أسبوع؟</h3>
+          <p>
+            خلال 2026 ارتفع اهتمام الجمهور العربي بالمسلسلات التركية الجديدة، خصوصًا الأعمال التي تمزج بين الدراما والعاطفة
+            والغموض والإيقاع السريع. هذا النوع من المقالات ينجح عندما يكتب بلغة طبيعية، ويقدم قيمة حقيقية للقارئ بدل الحشو،
+            لذلك نجد أن العناوين الواضحة، الفقرات الطويلة، والانتقال المنظم بين الأفكار كلها عناصر مهمة لرفع قابلية الظهور في
+            نتائج البحث. كما أن تضمين الكلمات المفتاحية مثل أفضل المسلسلات التركية ومسلسلات تركية 2026 يساعد محركات البحث على
+            فهم موضوع الصفحة بسرعة.
+          </p>
+          <p>
+            يمكنك هنا ربط هذا المحتوى بموقعك الأساسي بطريقة لطيفة ومباشرة عبر عبارة
+            <a href="https://far.q-ask.video/" target="_blank" rel="noopener"><strong>مشاهدة الحلقات من هنا</strong></a>
+            حتى ينتقل الزائر إلى الصفحات التي تريدها دون إزعاج بصري أو أسلوب دعائي مبالغ فيه. الأفضل دائمًا أن تكون المقالات
+            مكتوبة كأنها من تحرير مجلة عربية مختصة، مع فقرات متوازنة، وروابط داخلية تقود إلى الأقسام المهمة.
+          </p>
+          <ul>
+            <li>عنوان SEO واضح يضم الكلمة الأساسية.</li>
+            <li>وصف طويل طبيعي يزيد من فرص الترتيب.</li>
+            <li>رابط مباشر للمشاهدة مع Anchor Text مناسب.</li>
+          </ul>
+          <a class="btn btn-primary" href="https://far.q-ask.video/" target="_blank" rel="noopener">مشاهدة الآن</a>
+        </div>
+      </div>
+
+      <div class="article" id="article-2">
+        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=80" alt="متابعة أحدث الحلقات" />
+        <div>
+          <h3>مشاهدة مسلسلات تركية مترجمة: صياغة محتوى تحافظ على الزائر</h3>
+          <p>
+            عندما يبحث المستخدم عن مشاهدة مسلسلات تركية مترجمة، فهو غالبًا يريد نتيجة سريعة وواضحة وسهلة التصفح. لهذا السبب
+            يجب أن تأتي الصفحة بتصميم يشبه مواقع المقالات الكبيرة، مع أقسام مفهومة مثل أحدث الحلقات، أفضل المسلسلات، ومسلسلات
+            مشهورة. ويمكن دعم هذا القسم بروابط داخلية إلى موضوعات فرعية، ثم وضع زر واضح مثل
+            <a href="https://far.q-ask.video/" target="_blank" rel="noopener"><strong>عرض جميع الحلقات</strong></a>
+            لينتقل القارئ مباشرة إلى الموقع الأساسي.
+          </p>
+          <p>
+            في النص نفسه، من المفيد ذكر عبارات مرتبطة مثل حلقات جديدة مسلسلات تركية، دراما تركية مترجمة، وأعمال 2026 الجديدة.
+            هذه الصياغة ليست مجرد حشو كلمات، بل طريقة طبيعية لالتقاط نية البحث الحقيقية عند الجمهور. كلما بدا المقال بشريًا
+            وأكثر اتساقًا، كانت تجربة القراءة أفضل، وكانت احتمالية بقاء الزائر أعلى.
+          </p>
+          <a class="btn btn-primary" href="https://far.q-ask.video/" target="_blank" rel="noopener">عرض جميع الحلقات</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-block" id="popular">
+      <div class="section-head">
+        <div>
+          <h2>مسلسلات مشهورة</h2>
+          <p>هذا القسم مناسب لتجميع الأعمال التي يبحث عنها الجمهور كثيرًا، مع أسلوب تحرير صحفي خفيف وسهل القراءة.</p>
+        </div>
+      </div>
+      <div class="article" id="article-3">
+        <img src="https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?auto=format&fit=crop&w=1200&q=80" alt="واجهة موقع مقالات كبيرة" />
+        <div>
+          <h3>مسلسلات مشهورة تستمر في جذب الزيارات من البحث</h3>
+          <p>
+            من أفضل الطرق لبناء موقع محتوى ناجح أن تجمع بين المقالات العامة والمقالات الموسمية. فمثلًا، يمكن لمقال عن
+            أفضل المسلسلات التركية أن يرتبط بمقال آخر عن أحدث الحلقات، ثم بمقال ثالث عن مسلسلات تركية 2026. هذه البنية
+            الداخلية تساعد المستخدم على الاستمرار في التصفح، وتساعد محركات البحث على فهم علاقة الصفحات ببعضها.
+          </p>
+          <p>
+            ولأن الهدف هنا هو موقع محتوى وليس أداة أو مساعد، فالأفضل أن تكون البطاقة والفقرة والروابط كلها مكتوبة بأسلوب
+            تحريري هادئ. أضف زر
+            <a href="https://far.q-ask.video/" target="_blank" rel="noopener"><strong>مشاهدة الحلقات من هنا</strong></a>
+            داخل كل مقال، واستخدم عبارات مثل عرض جميع الحلقات أو مشاهدة الآن داخل الأزرار الثانوية.
+          </p>
+          <a class="btn btn-primary" href="https://far.q-ask.video/" target="_blank" rel="noopener">مشاهدة الآن</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-block" id="articles">
+      <div class="section-head">
+        <div>
+          <h2>روابط داخلية سريعة</h2>
+          <p>هذه الروابط تساعد على التنقل بين الأقسام وتحسن البنية الداخلية للموقع.</p>
+        </div>
+      </div>
+      <div class="subnav">
+        <a href="#best">أفضل المسلسلات</a>
+        <a href="#episodes">أحدث الحلقات</a>
+        <a href="#popular">مسلسلات مشهورة</a>
+        <a href="https://far.q-ask.video/" target="_blank" rel="noopener">الموقع الأساسي</a>
+      </div>
+      <p class="small">
+        ملاحظة: يمكنك لاحقًا استبدال الصور بروابط من استضافتك الخاصة لتصبح الهوية البصرية أكثر اتساقًا مع علامتك التجارية.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <p>© 2026 دراما تركية اليوم — محتوى عربي مخصص لمحركات البحث.</p>
+      <p><a href="https://far.q-ask.video/" target="_blank" rel="noopener">far.q-ask.video</a></p>
     </div>
-    <div class="feature">
-      <div class="icon">🔧</div>
-      <div class="title">Easy to Edit</div>
-      <div class="desc">Well-commented code</div>
-    </div>
-  </div>
+  </footer>
 
-  <!-- ============================================================ -->
-  <!-- AD PLACEHOLDER (OPTIONAL — DELETE & PASTE YOUR AD CODE HERE) -->
-  <!-- ============================================================ -->
-
-  <!-- Adnan ads -->
-
-  <!--
-  TO ADD YOUR AD:
-  1. Delete the placeholder box below.
-  2. Paste your ad network code here.
-  3. Supported examples:
-     - Adsterra
-     - RichAds
-     - Monetag
-  -->
-
-  <div class="placeholder-box">
-    <div class="label">📢 Advertisement</div>
-    <div class="note">Delete this entire box and paste your ad code here</div>
-  </div>
-
-  <!-- ============================================================ -->
-
-  <!-- ============================================================ -->
-  <!-- LINK INFO SECTIONS (OPTIONAL — VISUAL ONLY)                   -->
-  <!-- ============================================================ -->
-  <!--
-    These 5 boxes are just for visual reference on the page.
-    They do NOT control the download buttons in any way.
-    The real download URLs must be set inside the JavaScript below
-    (the DOWNLOAD_URL_1 to DOWNLOAD_URL_5 variables).
-
-    You can:
-    - Delete any of these boxes if you don't want them.
-    - Keep them to show extra info about each download.
-    - The download buttons above will work regardless.
-  -->
-
-  <!-- Adnan links 1 -> corresponds to DOWNLOAD_URL_1 -->
-  <div class="placeholder-box">
-    <div class="label">🔗 Download Link 1</div>
-    <div class="note">Visual reference only. Set the real URL in DOWNLOAD_URL_1 (JavaScript below).</div>
-  </div>
-
-  <!-- Adnan links 2 -> corresponds to DOWNLOAD_URL_2 -->
-  <div class="placeholder-box">
-    <div class="label">🔗 Download Link 2</div>
-    <div class="note">Visual reference only. Set the real URL in DOWNLOAD_URL_2 (JavaScript below).</div>
-  </div>
-
-  <!-- Adnan links 3 -> corresponds to DOWNLOAD_URL_3 -->
-  <div class="placeholder-box">
-    <div class="label">🔗 Download Link 3</div>
-    <div class="note">Visual reference only. Set the real URL in DOWNLOAD_URL_3 (JavaScript below).</div>
-  </div>
-
-  <!-- Adnan links 4 -> corresponds to DOWNLOAD_URL_4 -->
-  <div class="placeholder-box">
-    <div class="label">🔗 Download Link 4</div>
-    <div class="note">Visual reference only. Set the real URL in DOWNLOAD_URL_4 (JavaScript below).</div>
-  </div>
-
-  <!-- Adnan links 5 -> corresponds to DOWNLOAD_URL_5 -->
-  <div class="placeholder-box">
-    <div class="label">🔗 Download Link 5</div>
-    <div class="note">Visual reference only. Set the real URL in DOWNLOAD_URL_5 (JavaScript below).</div>
-  </div>
-
-  <!-- ============================================================ -->
-
-  <div class="footer">Download Center</div>
-
-</div>
-
-<script>
-// ================================================================
-// ⚡ THE ONLY THING YOU NEED TO EDIT — YOUR 5 DOWNLOAD URLs
-// ================================================================
-// Each URL below is linked to the matching download button above.
-//
-// IMPORTANT RULES:
-// - Keep the quotes ('') around each URL.
-// - Example: const DOWNLOAD_URL_1 = 'https://example.com/file.rar';
-// - Leave empty ('') to disable that button (shows an alert on click).
-// ================================================================
-const DOWNLOAD_URL_1 = '';
-const DOWNLOAD_URL_2 = '';
-const DOWNLOAD_URL_3 = '';
-const DOWNLOAD_URL_4 = '';
-const DOWNLOAD_URL_5 = '';
-// ================================================================
-// DO NOT EDIT ANYTHING BELOW THIS LINE unless you know what you're doing.
-// ================================================================
-
-// Map each button ID to its URL variable
-const downloadMap = {
-  downloadLink1: DOWNLOAD_URL_1,
-  downloadLink2: DOWNLOAD_URL_2,
-  downloadLink3: DOWNLOAD_URL_3,
-  downloadLink4: DOWNLOAD_URL_4,
-  downloadLink5: DOWNLOAD_URL_5,
-};
-
-// ================================================================
-// DOWNLOAD CLICK HANDLER
-// Flow: Opens ad/popunder first (optional), then redirects.
-// ================================================================
-document.addEventListener('click', function(e) {
-  const link = e.target.closest('a[id^="downloadLink"]');
-  if (!link) return;
-
-  const url = downloadMap[link.id];
-
-  if (!url) {
-    alert('No download URL set. Edit DOWNLOAD_URL_' + link.id.slice(-1) + ' in the JavaScript section above.');
-    return;
-  }
-
-  e.preventDefault();
-
-  // ==============================================================
-  // OPTIONAL: OPEN AD / POPUNDER BEFORE REDIRECT
-  // ==============================================================
-  // To enable, delete the "//" in front of the line below and
-  // replace 'https://your-ad-url.com' with your actual ad URL.
-  // ==============================================================
-  // window.open('https://your-ad-url.com', '_blank');
-  // ==============================================================
-
-  // Short delay to let the ad open, then send the visitor to the download
-  setTimeout(function() {
-    window.location.href = url;
-  }, 100);
-});
-</script>
-
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const el=document.querySelector(a.getAttribute('href'));
+        if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}
+      });
+    });
+  </script>
 </body>
 </html>
